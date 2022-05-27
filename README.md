@@ -3,6 +3,7 @@
 ## Quick start
 
 ```go
+// main.go
 package main
 
 import (
@@ -32,7 +33,7 @@ func main() {
 }
 ```
 
-Start the server
+Start the server:
 
 ```bash
 go run .
