@@ -1,4 +1,4 @@
-module github.com/vite-cloud/go-grace
+module github.com/vite-cloud/grace
 
 go 1.18
 

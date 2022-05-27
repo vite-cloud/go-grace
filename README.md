@@ -1,7 +1,8 @@
 # Grace
-[![codebeat badge](https://codebeat.co/badges/12534986-c871-4e80-8c21-364abae97ce2)](https://codebeat.co/projects/github-com-vite-cloud-go-grace-main)
-[![Tests](https://github.com/vite-cloud/go-grace/actions/workflows/tests.yml/badge.svg)](https://github.com/vite-cloud/go-grace/actions/workflows/tests.yml)
-[![codecov](https://codecov.io/gh/vite-cloud/go-grace/branch/main/graph/badge.svg?token=2EBL0P4UN6)](https://codecov.io/gh/vite-cloud/go-grace)
+[![Go Reference](https://pkg.go.dev/badge/github.com/vite-cloud/grace.svg)](https://pkg.go.dev/github.com/vite-cloud/go-grace)
+[![codebeat badge](https://codebeat.co/badges/12534986-c871-4e80-8c21-364abae97ce2)](https://codebeat.co/projects/github-com-vite-cloud-grace-main)
+[![Tests](https://github.com/vite-cloud/grace/actions/workflows/tests.yml/badge.svg)](https://github.com/vite-cloud/go-grace/actions/workflows/tests.yml)
+[![codecov](https://codecov.io/gh/vite-cloud/grace/branch/main/graph/badge.svg?token=2EBL0P4UN6)](https://codecov.io/gh/vite-cloud/grace)
 
 Graceful shutdown for HTTP(S) servers.
 
