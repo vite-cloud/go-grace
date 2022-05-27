@@ -6,10 +6,10 @@
 package main
 
 import (
-	"time"
+	"fmt"
 	"github.com/vite-cloud/grace"
 	"net/http"
-	"fmt"
+	"time"
 )
 
 func main() {
@@ -32,11 +32,19 @@ func main() {
 }
 ```
 
-Now, once you have started the server, make a GET request:
+Start the server
+
+```bash
+go run .
+```
+
+Now, once the server is running, make a GET request:
+
 ```bash
 curl localhost:8000/hello
 ```
 
 This will print "world" to the console after 5 seconds.
 
-If you terminate the server with Ctrl+C, the server will be terminated after the current request is finished.
+You may terminate the server with Ctrl+C, it will stop accepting new connections and finish existing ones. If the
+request takes more than the defined timeout (10 seconds in recommended) the server will close the connection.
